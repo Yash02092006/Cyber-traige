@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIH1744 | Cyber Triage Platform</title>
+
+  <!-- Google Fonts & Lucide Icons CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Firebase SDK CDNs (Compat version) -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+
+  <!-- Firebase Initialization using your exact credentials -->
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyBUzmEg6IwkH4uJ2Ww36l5qZ8VhtGp1VRI",
+      authDomain: "cyber-525a9.firebaseapp.com",
+      projectId: "cyber-525a9",
+      storageBucket: "cyber-525a9.firebasestorage.app",
+      messagingSenderId: "596592326830",
+      appId: "1:596592326830:web:4f889ae0e443ba9595953f"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Modular Scripts -->
+  <script src="app.js" defer></script>
+  <script src="style7.js" defer></script>
+  <script src="evidence.js" defer></script>
+  <script src="threats.js" defer></script>
+  <script src="timeline.js" defer></script>
+  <script src="artifacts.js" defer></script>
+  <script src="reports.js" defer></script>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="brand-badge">
+          <i data-lucide="shield-alert" class="brand-icon"></i>
+          <div>
+            <span class="brand-subtitle font-mono">SIH // PROBLEM 1744</span>
+            <h1 class="brand-title">TRIAGE // FORENSICS</h1>
+          </div>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <span class="nav-category font-mono">CORE MODULES</span>
+        <a href="#dashboard" class="nav-item active" id="nav-dashboard">
+          <i data-lucide="layout-dashboard"></i>
+          <span>Live Triage Hub</span>
+        </a>
+        <a href="#evidence" class="nav-item" id="nav-evidence">
+          <i data-lucide="folder-up"></i>
+          <span>Upload Evidence</span>
+        </a>
+        <a href="#threats" class="nav-item" id="nav-threats">
+          <i data-lucide="activity"></i>
+          <span>Threat Detections</span>
+          <span class="nav-badge danger font-mono" id="navThreatCount">3 CRIT</span>
+        </a>
+        <a href="#timeline" class="nav-item" id="nav-timeline">
+          <i data-lucide="git-commit"></i>
+          <span>Forensic Timeline</span>
+        </a>
+        <a href="#artifacts" class="nav-item" id="nav-artifacts">
+          <i data-lucide="database"></i>
+          <span>Extracted Artifacts</span>
+        </a>
+
+        <span class="nav-category font-mono">CASE CONTROL</span>
+        <a href="#reports" class="nav-item" id="nav-reports">
+          <i data-lucide="file-check-2"></i>
+          <span>Chain of Custody</span>
+        </a>
+        <a href="#settings" class="nav-item" id="nav-settings">
+          <i data-lucide="sliders"></i>
+          <span>Engine Config</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="operator-profile">
+          <div class="avatar-ring">
+            <i data-lucide="user-check"></i>
+          </div>
+          <div class="operator-info">
+            <span class="op-name font-mono" id="sidebarOperatorName">OPERATOR: GUEST_ANALYST</span>
+            <span class="op-role" id="sidebarOperatorRole">Lead Forensic Analyst</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Workspace -->
+    <main class="main-viewport">
+      <!-- Top Action Bar -->
+      <header class="viewport-header">
+        <div class="case-meta">
+          <span class="case-id font-mono">CASE #2026-IN-1744 // DIGITAL TRIAGE</span>
+          <h2 class="view-title" id="activeViewTitle">Automated Forensic Analysis Dashboard</h2>
+        </div>
+        <div class="header-actions">
+          <div class="search-box">
+            <i data-lucide="search"></i>
+            <input type="text" id="globalSearchInput" placeholder="Global search IOC, hash, PID..." class="font-mono">
+          </div>
+          <button class="btn btn-outline" id="printReportBtn" type="button">
+            <i data-lucide="printer"></i> Export PDF
+          </button>
+          <button class="btn btn-primary" id="simulateTriageBtn" type="button">
+            <i data-lucide="play"></i> Live Ingest Simulation
+          </button>
+          <button class="btn btn-outline" id="openLoginModalBtn" type="button">
+            <i data-lucide="log-in"></i> Operator Login
+          </button>
+          <button class="btn btn-outline" id="logoutBtn" type="button" style="display: none; border-color: var(--accent-neon-red); color: var(--accent-neon-red);">
+            <i data-lucide="log-out"></i> Logout
+          </button>
+        </div>
+      </header>
+
+      <!-- Scrollable Multi-View Body -->
+      <div class="content-grid">
+        
+        <!-- VIEW 1: LIVE DASHBOARD -->
+        <section id="view-dashboard" class="view-section active">
+          <div class="metrics-row">
+            <div class="stat-card border-glow-red">
+              <div class="stat-icon-wrapper red"><i data-lucide="alert-octagon"></i></div>
+              <div class="stat-details full-width">
+                <span class="stat-label">Calculated Incident Risk</span>
+                <div id="riskScoreDisplay" class="risk-display-container">
+                  <span class="stat-value font-mono text-danger" id="riskScoreValue">88</span>
+                  <div class="risk-meter">
+                    <span class="risk-tag danger font-mono" id="riskScoreLabel">SEVERITY: CRITICAL</span>
+                    <div class="risk-progress-bar">
+                      <div class="risk-progress-fill" id="riskScoreBar" style="width: 88%;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="stat-card border-glow-blue">
+              <div class="stat-icon-wrapper blue"><i data-lucide="hard-drive"></i></div>
+              <div class="stat-details">
+                <span class="stat-label">Total Artifacts Scanned</span>
+                <span class="stat-value font-mono" id="statFilesScanned">1,842,910</span>
+                <span class="stat-subtext text-cyan font-mono" id="statDataIngested">↑ 124.8 GB Ingested</span>
+              </div>
+            </div>
+
+            <div class="stat-card border-glow-green">
+              <div class="stat-icon-wrapper green"><i data-lucide="cpu"></i></div>
+              <div class="stat-details">
+                <span class="stat-label">Active Parsers</span>
+                <span class="stat-value font-mono text-success" id="activeParsersCount">8 / 8 Active</span>
+                <span class="stat-subtext text-success font-mono">EVTX, MFT, PCAP, Prefetch</span>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon-wrapper cyan"><i data-lucide="timer"></i></div>
+              <div class="stat-details">
+                <span class="stat-label">Mean Triage Duration</span>
+                <span class="stat-value font-mono" id="triageDuration">03m 42s</span>
+                <span class="stat-subtext text-muted font-mono">Target: &lt; 05m 00s</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- MITRE ATT&CK Matrix Interactive Bar -->
+          <div class="mitre-strip" id="dashboardMitreStrip">
+            <div class="mitre-card flagged" data-tactic="TA0001">
+              <span class="mitre-phase font-mono">TA0001: Initial Access</span>
+              <span class="mitre-technique">Valid Accounts (T1078)</span>
+              <span class="mitre-count font-mono">1 DETECTION</span>
+            </div>
+            <div class="mitre-card flagged" data-tactic="TA0002">
+              <span class="mitre-phase font-mono">TA0002: Execution</span>
+              <span class="mitre-technique">PowerShell (T1059.001)</span>
+              <span class="mitre-count font-mono">2 DETECTIONS</span>
+            </div>
+            <div class="mitre-card flagged" data-tactic="TA0006">
+              <span class="mitre-phase font-mono">TA0006: Credential Access</span>
+              <span class="mitre-technique">OS Cred Dumping (T1003)</span>
+              <span class="mitre-count font-mono">1 CRITICAL</span>
+            </div>
+            <div class="mitre-card" data-tactic="TA0008">
+              <span class="mitre-phase font-mono">TA0008: Lateral Movement</span>
+              <span class="mitre-technique">Remote Services (T1021)</span>
+              <span class="mitre-count font-mono text-muted">0 DETECTIONS</span>
+            </div>
+            <div class="mitre-card flagged" data-tactic="TA0011">
+              <span class="mitre-phase font-mono">TA0011: Command & Control</span>
+              <span class="mitre-technique">DNS Tunneling (T1071.004)</span>
+              <span class="mitre-count font-mono">1 DETECTION</span>
+            </div>
+          </div>
+
+          <!-- Split Two-Column Workspace -->
+          <div class="split-layout">
+            <div class="panel">
+              <div class="panel-header">
+                <div class="panel-title-group">
+                  <i data-lucide="shield-alert" class="panel-icon text-danger"></i>
+                  <h3>Flagged Threat Indicators</h3>
+                </div>
+                <button class="btn btn-outline btn-sm" onclick="appRouter.navigate('#threats')">Inspect Full View</button>
+              </div>
+              <div class="table-responsive">
+                <table class="triage-table">
+                  <thead>
+                    <tr>
+                      <th>Timestamp</th>
+                      <th>Threat Name / Process</th>
+                      <th>Severity</th>
+                      <th>Source / PID</th>
+                    </tr>
+                  </thead>
+                  <tbody id="threatTableBody"></tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="panel timeline-panel">
+              <div class="panel-header">
+                <div class="panel-title-group">
+                  <i data-lucide="clock-rewind" class="panel-icon text-cyan"></i>
+                  <h3>Forensic Event Progression</h3>
+                </div>
+                <button class="btn btn-outline btn-sm" onclick="appRouter.navigate('#timeline')">Open Timeline Hub</button>
+              </div>
+              <div class="timeline-container" id="timelineContainer"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- VIEW 2: DEDICATED UPLOAD EVIDENCE MODULE -->
+        <section id="view-evidence" class="view-section">
+          <div class="evidence-meta-card">
+            <div class="meta-field">
+              <label class="font-mono">CASE IDENTIFIER</label>
+              <input type="text" value="CASE-2026-IN-1744" id="caseIdInput" class="font-mono">
+            </div>
+            <div class="meta-field">
+              <label class="font-mono">FORENSIC INVESTIGATOR</label>
+              <input type="text" value="INV. ANALYST" id="investigatorInput" class="font-mono">
+            </div>
+            <div class="meta-field">
+              <label class="font-mono">SOURCE ARTIFACT FORMAT</label>
+              <select id="artifactTypeSelect" class="font-mono custom-select">
+                <option value="evtx">Windows Event Logs (.EVTX)</option>
+                <option value="pcap">Network Packet Capture (.PCAP / .PCAPNG)</option>
+                <option value="mft">NTFS Master File Table ($MFT)</option>
+                <option value="mem">Raw Memory Dump (.RAW / .DMP)</option>
+                <option value="disk">Autopsy / E01 Disk Image</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="panel upload-panel">
+            <div class="panel-header">
+              <div class="panel-title-group">
+                <i data-lucide="upload-cloud" class="panel-icon text-cyan"></i>
+                <h3>Evidence Acquisition Dropzone</h3>
+              </div>
+              <span class="tag-status font-mono">READY TO INGEST</span>
+            </div>
+
+            <div class="dropzone" id="evidenceDropzone">
+              <input type="file" id="logFileInput" class="file-input-hidden" multiple accept=".evtx,.pcap,.mft,.csv,.json,.raw,.log">
+              <div class="dropzone-content">
+                <div class="pulse-radar"><i data-lucide="hard-drive-upload"></i></div>
+                <h4>Select or Drop Raw Evidence Files Here</h4>
+                <p>Calculates SHA-256 instantly in browser memory via Web Crypto API to guarantee chain of custody</p>
+                <button class="btn btn-primary" type="button" onclick="document.getElementById('logFileInput').click()">
+                  <i data-lucide="file-plus"></i> Browse File System
+                </button>
+              </div>
+            </div>
+
+            <div class="custody-strip font-mono">
+              <div>
+                <span class="text-muted">INGEST SHA-256 HASH: </span>
+                <span class="hash-badge" id="clientHashDisplay">AWAITING EVIDENCE SELECTION...</span>
+              </div>
+              <span class="custody-badge" id="custodyStatusText">
+                <i data-lucide="shield-check" class="custody-icon"></i> READY FOR FORENSIC VALIDATION
+              </span>
+            </div>
+
+            <div class="upload-progress-list" id="uploadProgressSection" style="display: none;">
+              <div class="progress-item">
+                <div class="progress-info font-mono">
+                  <span id="progressFileName">file.evtx</span>
+                  <span id="progressStatus" class="file-status">COMPUTING HASH (100%)</span>
+                </div>
+                <div class="progress-bar-track"><div class="progress-bar-fill" id="progressBarFill" style="width: 100%;"></div></div>
+              </div>
+              <button class="btn btn-primary full-width" id="startTriageBtn" type="button" style="margin-top: 1rem;">
+                <i data-lucide="cpu"></i> Run Automated Triage Analysis Pipeline
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- VIEW 3: DEDICATED THREAT DETECTIONS -->
+        <section id="view-threats" class="view-section">
+          <div class="threat-toolbar">
+            <div class="filter-pills" id="threatSeverityFilters">
+              <button class="pill active" data-threat-filter="all" type="button">All Detections (<span id="countAllThreats">3</span>)</button>
+              <button class="pill" data-threat-filter="CRITICAL" type="button">Critical YARA/Sigma</button>
+              <button class="pill" data-threat-filter="HIGH" type="button">Process Execution</button>
+              <button class="pill" data-threat-filter="MEDIUM" type="button">Network Anomaly</button>
+            </div>
+            <div class="toolbar-actions">
+              <button class="btn btn-outline" id="isolateHostBtn" type="button"><i data-lucide="radio"></i> Isolate Endpoints</button>
+              <button class="btn btn-primary" id="exportIocBtn" type="button"><i data-lucide="share-2"></i> Export STIX 2.1</button>
+            </div>
+          </div>
+
+          <div class="split-layout">
+            <div class="panel">
+              <div class="panel-header">
+                <div class="panel-title-group"><i data-lucide="crosshair" class="panel-icon text-danger"></i><h3>Active Threat Signatures</h3></div>
+              </div>
+              <div class="table-responsive">
+                <table class="triage-table interactive-table" id="masterThreatTable">
+                  <thead>
+                    <tr><th>Rule / IOC</th><th>MITRE ID</th><th>Severity</th><th>Target Endpoint</th><th>Status</th></tr>
+                  </thead>
+                  <tbody id="masterThreatTableBody"></tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="panel" id="threatInspectorPanel">
+              <div class="panel-header">
+                <div class="panel-title-group"><i data-lucide="file-search" class="panel-icon text-cyan"></i><h3>Artifact Inspector</h3></div>
+                <span class="tag-status font-mono" id="inspectorIdTag">PID 4108</span>
+              </div>
+              <div class="inspector-card" id="inspectorContent">
+                <div class="inspector-row"><span class="inspector-label font-mono">ENGINE:</span><span class="inspector-val font-mono text-cyan" id="inspEngine">-</span></div>
+                <div class="inspector-row"><span class="inspector-label font-mono">PROCESS:</span><span class="inspector-val font-mono" id="inspProcess">-</span></div>
+                <div class="inspector-row"><span class="inspector-label font-mono">COMMAND:</span><code class="inspector-code font-mono" id="inspCmd">-</code></div>
+                <div class="inspector-actions">
+                  <button class="btn btn-primary" id="remediateThreatBtn" type="button"><i data-lucide="shield-alert"></i> Quarantine</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- VIEW 4: TIMELINE HUB -->
+        <section id="view-timeline" class="view-section">
+          <div class="panel">
+            <div class="panel-header">
+              <div class="panel-title-group"><i data-lucide="git-commit" class="panel-icon text-cyan"></i><h3>Forensic Reconstruction Sequence</h3></div>
+            </div>
+            <div class="timeline-container full-page-timeline" id="fullTimelineContainer"></div>
+          </div>
+        </section>
+
+        <!-- VIEW 5: ARTIFACTS VAULT -->
+        <section id="view-artifacts" class="view-section">
+          <div class="panel">
+            <div class="panel-header">
+              <div class="panel-title-group"><i data-lucide="database" class="panel-icon text-cyan"></i><h3>Extracted Artifacts</h3></div>
+            </div>
+            <div class="table-responsive">
+              <table class="triage-table" id="artifactsTable">
+                <thead><tr><th>ID</th><th>Type</th><th>Path</th><th>Timestamp</th><th>Hash</th></tr></thead>
+                <tbody id="artifactsTableBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- VIEW 6: REPORTS -->
+        <section id="view-reports" class="view-section">
+          <div class="split-layout">
+            <div class="panel"><div class="panel-header"><h3>Chain of Custody</h3></div><div class="custody-ledger-container" id="custodyLedgerContainer"></div></div>
+            <div class="panel"><div class="panel-header"><h3>Executive Summary</h3></div><div class="executive-report-preview font-mono" id="reportMarkdownPreview"></div></div>
+          </div>
+        </section>
+
+        <!-- VIEW 7: SETTINGS -->
+        <section id="view-settings" class="view-section">
+          <div class="panel"><div class="panel-header"><h3>Engine Config</h3></div></div>
+        </section>
+
+        <!-- CLI Console -->
+        <section class="terminal-console">
+          <div class="terminal-header"><span class="text-cyan font-mono">▶ FORENSIC_TRIAGE_DAEMON // ACTIVE</span></div>
+          <div class="terminal-logs font-mono" id="terminalOutput">
+            <p class="log-info">[13:50:00] [SYSTEM] Forensic daemon started. Firebase telemetry connected.</p>
+          </div>
+          <div class="terminal-input-row font-mono">
+            <span class="prompt text-cyan">analyst@triage:~$</span>
+            <input type="text" id="terminalCommandInput" placeholder="try 'status', 'scan', 'help'..." autocomplete="off">
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- LOGIN MODAL -->
+  <div class="modal-overlay" id="loginModal" style="display: none;">
+    <div class="modal-card border-glow-cyan" style="width: 440px;">
+      <div class="modal-header">
+        <div class="title-with-icon"><i data-lucide="shield-alert" class="text-cyan"></i><h3>SOC Operator Authorization</h3></div>
+        <button class="btn-close" id="closeLoginModalBtn" type="button"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body">
+        
+        <!-- Google Login Button -->
+        <button class="btn btn-outline full-width" id="googleLoginBtn" type="button" style="width: 100%; justify-content: center; margin-bottom: 1.25rem;">
+          <svg width="18" height="18" viewBox="0 0 24 24" style="margin-right: 8px;"><path fill="#EA4335" d="M12 5c1.6 0 3 .6 4.1 1.6l3.1-3.1C17.3 1.8 14.8 1 12 1 7.4 1 3.5 3.6 1.6 7.4l3.7 2.9C6.2 7.3 8.9 5 12 5z"/><path fill="#4285F4" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5c-.3 1.5-1.1 2.8-2.4 3.7l3.7 2.9c2.2-2 3.7-5 3.7-8.8z"/><path fill="#FBBC05" d="M5.3 14.7c-.2-.7-.4-1.5-.4-2.3s.2-1.6.4-2.3L1.6 7.2C.6 9.2 0 11.5 0 14s.6 4.8 1.6 6.8l3.7-2.9c-.2-.7-.4-1.5-.4-2.2z"/><path fill="#34A853" d="M12 23c3.2 0 6-1.1 8-3l-3.7-2.9c-1.1.7-2.5 1.2-4.3 1.2-3.1 0-5.8-2.3-6.7-5.3L1.6 16c1.9 3.8 5.8 7 10.4 7z"/></svg>
+          Sign in with Google Workspace API
+        </button>
+
+        <div style="display: flex; align-items: center; text-align: center; margin: 1rem 0; color: var(--text-muted); font-size: 0.75rem;">
+          <div style="flex: 1; border-bottom: 1px solid var(--border-subtle);"></div>
+          <span style="padding: 0 10px; font-family: monospace;">OR PASSWORDLESS LINK</span>
+          <div style="flex: 1; border-bottom: 1px solid var(--border-subtle);"></div>
+        </div>
+
+        <div id="emailStep1">
+          <div class="settings-group" style="margin-bottom: 1rem;">
+            <label class="font-mono text-muted" style="font-size: 0.7rem; display: block; margin-bottom: 0.4rem;">OFFICIAL SOC EMAIL</label>
+            <input type="email" id="loginEmail" class="settings-input font-mono" placeholder="analyst@sih.gov" style="width: 100%; padding: 0.5rem; background: var(--bg-core); border: 1px solid var(--border-subtle); color: var(--text-primary); border-radius: 4px;">
+          </div>
+          <button class="btn btn-primary full-width" id="sendOtpBtn" type="button" style="width: 100%; justify-content: center;">
+            <i data-lucide="mail"></i> Request Email Link
+          </button>
+        </div>
+
+        <div id="emailStep2" style="display: none;"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>lucide.createIcons();</script>
+</body>
+</html>

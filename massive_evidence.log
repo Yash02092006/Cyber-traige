@@ -1,0 +1,1000 @@
+[2026-09-18 10:00:06] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 10:00:13] [INFO] User session active for service account 'svc_backup' from IP 185.220.101.5
+[2026-09-18 10:00:23] [INFO] System heartbeat normal. CPU: 81%, RAM: 39%
+[2026-09-18 10:00:33] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:00:41] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:00:43] [INFO] User session active for service account 'svc_backup' from IP 185.220.101.5
+[2026-09-18 10:00:48] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 10:00:52] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:01:02] [INFO] User session active for service account 'svc_backup' from IP 172.16.0.22
+[2026-09-18 10:01:03] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:01:07] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 10:01:11] [INFO] System heartbeat normal. CPU: 71%, RAM: 53%
+[2026-09-18 10:01:19] [INFO] System heartbeat normal. CPU: 54%, RAM: 85%
+[2026-09-18 10:01:28] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:01:34] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:01:44] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:01:46] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 10:01:54] [INFO] Network socket established: TCP 192.168.1.50 -> 172.16.0.22:443
+[2026-09-18 10:01:57] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:02:04] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:02:09] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:02:17] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:02:25] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:02:34] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:02:38] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:02:47] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:02:48] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:02:49] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:02:58] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 10:02:59] [INFO] System heartbeat normal. CPU: 60%, RAM: 53%
+[2026-09-18 10:03:08] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.112
+[2026-09-18 10:03:18] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.50
+[2026-09-18 10:03:19] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:03:28] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:03:38] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:03:42] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:03:47] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:03:55] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:04:03] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:04:05] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:04:08] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:04:18] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:04:25] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 10:04:32] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:04:40] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:04:49] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:04:59] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:05:08] [INFO] User session active for service account 'svc_backup' from IP 45.33.32.156
+[2026-09-18 10:05:14] [INFO] System heartbeat normal. CPU: 33%, RAM: 55%
+[2026-09-18 10:05:20] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:05:28] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:05:29] [INFO] User session active for service account 'svc_backup' from IP 185.220.101.5
+[2026-09-18 10:05:34] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:05:40] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 10:05:46] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:05:47] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 10:05:49] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:05:55] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:05:58] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:06:05] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:06:14] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 10:06:17] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 10:06:26] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 10:06:35] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:06:43] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:06:45] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:06:52] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:06:57] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 10:07:02] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:07:12] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 10:07:20] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:07:22] [INFO] Network socket established: TCP 192.168.1.50 -> 10.0.4.15:443
+[2026-09-18 10:07:24] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:07:34] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:07:39] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:07:49] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 10:07:56] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:08:04] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:08:13] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:08:22] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:08:25] [INFO] System heartbeat normal. CPU: 19%, RAM: 85%
+[2026-09-18 10:08:34] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:08:37] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:08:46] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:08:51] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:08:57] [INFO] System heartbeat normal. CPU: 18%, RAM: 83%
+[2026-09-18 10:09:07] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:09:14] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:09:19] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:09:20] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:09:22] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:09:32] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 10:09:37] [INFO] System heartbeat normal. CPU: 41%, RAM: 71%
+[2026-09-18 10:09:46] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 10:09:52] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:09:59] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:10:00] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:10:06] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 10:10:08] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:10:11] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:10:15] [INFO] System heartbeat normal. CPU: 41%, RAM: 65%
+[2026-09-18 10:10:25] [INFO] System heartbeat normal. CPU: 90%, RAM: 81%
+[2026-09-18 10:10:35] [INFO] System heartbeat normal. CPU: 87%, RAM: 42%
+[2026-09-18 10:10:43] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:10:45] [INFO] Network socket established: TCP 192.168.1.50 -> 172.16.0.22:443
+[2026-09-18 10:10:48] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:10:57] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:11:01] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:11:10] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 10:11:20] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 10:11:27] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:11:28] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:11:34] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:11:41] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:11:44] [INFO] System heartbeat normal. CPU: 42%, RAM: 61%
+[2026-09-18 10:11:49] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:11:58] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 10:12:06] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:12:08] [INFO] System heartbeat normal. CPU: 18%, RAM: 81%
+[2026-09-18 10:12:12] [INFO] System heartbeat normal. CPU: 20%, RAM: 46%
+[2026-09-18 10:12:14] [INFO] User session active for service account 'svc_backup' from IP 172.16.0.22
+[2026-09-18 10:12:18] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 10:12:28] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:12:31] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:12:36] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:12:37] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:12:45] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:12:53] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:12:59] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:13:02] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:13:06] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.50
+[2026-09-18 10:13:07] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:13:08] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:13:12] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 10:13:16] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 10:13:25] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:13:30] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:13:31] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:13:38] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:13:47] [INFO] System heartbeat normal. CPU: 36%, RAM: 57%
+[2026-09-18 10:13:57] [INFO] System heartbeat normal. CPU: 26%, RAM: 43%
+[2026-09-18 10:14:06] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:14:08] [INFO] User session active for service account 'svc_backup' from IP 45.33.32.156
+[2026-09-18 10:14:18] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 10:14:22] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:14:32] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:14:42] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.112
+[2026-09-18 10:14:44] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 10:14:50] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:14:55] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:14:59] [INFO] System heartbeat normal. CPU: 25%, RAM: 61%
+[2026-09-18 10:15:03] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:15:05] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:15:14] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:15:19] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:15:22] [INFO] System heartbeat normal. CPU: 30%, RAM: 60%
+[2026-09-18 10:15:32] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 10:15:41] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:15:46] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 10:15:54] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 10:15:55] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:16:00] [INFO] System heartbeat normal. CPU: 88%, RAM: 43%
+[2026-09-18 10:16:08] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:16:14] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:16:23] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:16:27] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.50
+[2026-09-18 10:16:35] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 10:16:40] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:16:48] [INFO] Network socket established: TCP 192.168.1.50 -> 10.0.4.15:443
+[2026-09-18 10:16:58] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:17:06] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:17:10] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:17:15] [INFO] System heartbeat normal. CPU: 47%, RAM: 86%
+[2026-09-18 10:17:25] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 10:17:35] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 10:17:43] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:17:44] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:17:51] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:17:56] [INFO] System heartbeat normal. CPU: 43%, RAM: 72%
+[2026-09-18 10:18:03] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:18:04] [INFO] User session active for service account 'svc_backup' from IP 172.16.0.22
+[2026-09-18 10:18:11] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 10:18:15] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:18:18] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:18:21] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:18:27] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:18:29] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:18:37] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:18:39] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:18:43] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:18:50] [INFO] Network socket established: TCP 192.168.1.50 -> 185.220.101.5:443
+[2026-09-18 10:18:53] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:18:55] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:19:04] [INFO] System heartbeat normal. CPU: 83%, RAM: 76%
+[2026-09-18 10:19:09] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:19:14] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:19:17] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:19:23] [INFO] Network socket established: TCP 192.168.1.50 -> 185.220.101.5:443
+[2026-09-18 10:19:31] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:19:38] [INFO] Network socket established: TCP 192.168.1.50 -> 172.16.0.22:443
+[2026-09-18 10:19:39] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 10:19:46] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:19:54] [INFO] System heartbeat normal. CPU: 48%, RAM: 82%
+[2026-09-18 10:20:03] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:20:06] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:20:10] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:20:14] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 10:20:21] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.112
+[2026-09-18 10:20:22] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:20:25] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:20:28] [INFO] System heartbeat normal. CPU: 45%, RAM: 79%
+[2026-09-18 10:20:37] [INFO] System heartbeat normal. CPU: 88%, RAM: 40%
+[2026-09-18 10:20:47] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:20:49] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:20:59] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:21:06] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:21:11] [INFO] Network socket established: TCP 192.168.1.50 -> 172.16.0.22:443
+[2026-09-18 10:21:14] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:21:24] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 10:21:28] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:21:34] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:21:43] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:21:48] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:21:53] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:21:58] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:22:03] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 10:22:08] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:22:14] [INFO] System heartbeat normal. CPU: 40%, RAM: 69%
+[2026-09-18 10:22:20] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.50
+[2026-09-18 10:22:27] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.50
+[2026-09-18 10:22:33] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:22:43] [INFO] Network socket established: TCP 192.168.1.50 -> 172.16.0.22:443
+[2026-09-18 10:22:53] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:22:58] [INFO] System heartbeat normal. CPU: 87%, RAM: 42%
+[2026-09-18 10:23:07] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:23:16] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:23:20] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 10:23:24] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:23:29] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:23:35] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 10:23:36] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:23:46] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:23:52] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:23:55] [INFO] Network socket established: TCP 192.168.1.50 -> 10.0.4.15:443
+[2026-09-18 10:24:03] [INFO] Network socket established: TCP 192.168.1.50 -> 10.0.4.15:443
+[2026-09-18 10:24:05] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:24:13] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:24:18] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 10:24:23] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:24:29] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:24:37] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:24:47] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 10:24:48] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:24:55] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:24:57] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 10:25:07] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:25:09] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:25:19] [INFO] System heartbeat normal. CPU: 73%, RAM: 89%
+[2026-09-18 10:25:29] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:25:39] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:25:41] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:25:43] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:25:53] [INFO] Network socket established: TCP 192.168.1.50 -> 10.0.4.15:443
+[2026-09-18 10:25:57] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:26:00] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:26:01] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:26:02] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:26:04] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 10:26:09] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 10:26:11] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:26:16] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:26:18] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:26:25] [INFO] System heartbeat normal. CPU: 72%, RAM: 54%
+[2026-09-18 10:26:29] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:26:39] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:26:41] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:26:45] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:26:46] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:26:55] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.112
+[2026-09-18 10:27:03] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:27:06] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:27:10] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 10:27:12] [INFO] System heartbeat normal. CPU: 67%, RAM: 79%
+[2026-09-18 10:27:15] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 10:27:24] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 10:27:33] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:27:36] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 10:27:37] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:27:39] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:27:48] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:27:54] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:27:55] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:28:00] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:28:09] [INFO] System heartbeat normal. CPU: 58%, RAM: 67%
+[2026-09-18 10:28:11] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 10:28:13] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:28:18] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:28:24] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:28:33] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:28:43] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.50
+[2026-09-18 10:28:51] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:28:53] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 10:28:56] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:29:02] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:29:11] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 10:29:16] [INFO] System heartbeat normal. CPU: 94%, RAM: 76%
+[2026-09-18 10:29:23] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:29:28] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:29:37] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:29:40] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:29:49] [INFO] System heartbeat normal. CPU: 93%, RAM: 71%
+[2026-09-18 10:29:59] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:30:00] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 10:30:06] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 10:30:16] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 10:30:17] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:30:21] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:30:24] [INFO] System heartbeat normal. CPU: 62%, RAM: 53%
+[2026-09-18 10:30:33] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:30:40] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:30:49] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:30:51] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:31:01] [INFO] System heartbeat normal. CPU: 83%, RAM: 45%
+[2026-09-18 10:31:05] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:31:08] [INFO] System heartbeat normal. CPU: 48%, RAM: 54%
+[2026-09-18 10:31:10] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.112
+[2026-09-18 10:31:12] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:31:17] [INFO] System heartbeat normal. CPU: 40%, RAM: 57%
+[2026-09-18 10:31:20] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:31:23] [INFO] System heartbeat normal. CPU: 78%, RAM: 54%
+[2026-09-18 10:31:29] [INFO] User session active for service account 'svc_backup' from IP 45.33.32.156
+[2026-09-18 10:31:34] [INFO] User session active for service account 'svc_backup' from IP 45.33.32.156
+[2026-09-18 10:31:43] [INFO] Network socket established: TCP 192.168.1.50 -> 10.0.4.15:443
+[2026-09-18 10:31:52] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 10:31:59] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:32:01] [INFO] System heartbeat normal. CPU: 29%, RAM: 46%
+[2026-09-18 10:32:08] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 10:32:17] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:32:27] [INFO] Network socket established: TCP 192.168.1.50 -> 10.0.4.15:443
+[2026-09-18 10:32:34] [INFO] System heartbeat normal. CPU: 65%, RAM: 89%
+[2026-09-18 10:32:38] [INFO] System heartbeat normal. CPU: 52%, RAM: 37%
+[2026-09-18 10:32:43] [INFO] System heartbeat normal. CPU: 84%, RAM: 47%
+[2026-09-18 10:32:44] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:32:48] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:32:52] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 10:32:57] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:33:07] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:33:15] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 10:33:16] [INFO] Network socket established: TCP 192.168.1.50 -> 10.0.4.15:443
+[2026-09-18 10:33:23] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 10:33:30] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:33:31] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:33:33] [INFO] System heartbeat normal. CPU: 22%, RAM: 62%
+[2026-09-18 10:33:34] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 10:33:43] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.112
+[2026-09-18 10:33:44] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 10:33:46] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 10:33:49] [INFO] User session active for service account 'svc_backup' from IP 185.220.101.5
+[2026-09-18 10:33:54] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 10:33:57] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 10:33:58] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 10:34:07] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:34:17] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:34:22] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:34:28] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:34:38] [INFO] System heartbeat normal. CPU: 91%, RAM: 44%
+[2026-09-18 10:34:48] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 10:34:51] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:34:58] [INFO] System heartbeat normal. CPU: 79%, RAM: 77%
+[2026-09-18 10:35:03] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 10:35:10] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:35:12] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:35:22] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:35:25] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:35:29] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:35:36] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:35:46] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:35:50] [INFO] System heartbeat normal. CPU: 91%, RAM: 69%
+[2026-09-18 10:35:51] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:36:00] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:36:09] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:36:12] [INFO] System heartbeat normal. CPU: 76%, RAM: 43%
+[2026-09-18 10:36:15] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 10:36:24] [INFO] Network socket established: TCP 192.168.1.50 -> 10.0.4.15:443
+[2026-09-18 10:36:30] [INFO] System heartbeat normal. CPU: 38%, RAM: 80%
+[2026-09-18 10:36:36] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.50
+[2026-09-18 10:36:38] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 10:36:46] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 10:36:47] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:36:57] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:37:06] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.112
+[2026-09-18 10:37:09] [INFO] System heartbeat normal. CPU: 43%, RAM: 90%
+[2026-09-18 10:37:16] [INFO] User session active for service account 'svc_backup' from IP 185.220.101.5
+[2026-09-18 10:37:22] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:37:26] [INFO] System heartbeat normal. CPU: 42%, RAM: 37%
+[2026-09-18 10:37:28] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:37:36] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:37:46] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:37:49] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 10:37:53] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:38:02] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:38:07] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:38:15] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 10:38:22] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:38:23] [INFO] System heartbeat normal. CPU: 57%, RAM: 63%
+[2026-09-18 10:38:24] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:38:34] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:38:42] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:38:47] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:38:55] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 10:39:04] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:39:14] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:39:21] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 10:39:26] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:39:34] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:39:41] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:39:45] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:39:51] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 10:39:54] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 10:39:59] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:40:03] [INFO] System heartbeat normal. CPU: 24%, RAM: 76%
+[2026-09-18 10:40:05] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:40:14] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:40:20] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:40:21] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:40:26] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:40:29] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:40:36] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 10:40:44] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:40:53] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:40:59] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 10:41:00] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.112
+[2026-09-18 10:41:03] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:41:07] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:41:12] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:41:21] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:41:26] [INFO] System heartbeat normal. CPU: 51%, RAM: 54%
+[2026-09-18 10:41:32] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:41:34] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 10:41:44] [INFO] System heartbeat normal. CPU: 94%, RAM: 80%
+[2026-09-18 10:41:48] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 10:41:56] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:42:05] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:42:08] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:42:18] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:42:27] [INFO] User session active for service account 'svc_backup' from IP 45.33.32.156
+[2026-09-18 10:42:37] [INFO] User session active for service account 'svc_backup' from IP 45.33.32.156
+[2026-09-18 10:42:41] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:42:42] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:42:46] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:42:47] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:42:50] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:43:00] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:43:10] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:43:11] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:43:21] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:43:22] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:43:29] [INFO] System heartbeat normal. CPU: 24%, RAM: 65%
+[2026-09-18 10:43:35] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:43:43] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 10:43:50] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 10:43:52] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:43:54] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.112
+[2026-09-18 10:43:55] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:44:02] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 10:44:10] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:44:17] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:44:25] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.50
+[2026-09-18 10:44:31] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 10:44:38] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:44:46] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:44:47] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:44:55] [INFO] User session active for service account 'svc_backup' from IP 185.220.101.5
+[2026-09-18 10:45:03] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:45:06] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:45:07] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:45:17] [INFO] System heartbeat normal. CPU: 65%, RAM: 63%
+[2026-09-18 10:45:27] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:45:34] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:45:39] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:45:41] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:45:48] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:45:52] [INFO] System heartbeat normal. CPU: 81%, RAM: 92%
+[2026-09-18 10:45:54] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:45:56] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:46:03] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:46:13] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:46:17] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 10:46:21] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:46:22] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:46:25] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 10:46:28] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:46:32] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:46:35] [INFO] Network socket established: TCP 192.168.1.50 -> 172.16.0.22:443
+[2026-09-18 10:46:44] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:46:46] [INFO] System heartbeat normal. CPU: 52%, RAM: 42%
+[2026-09-18 10:46:54] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:46:58] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:47:01] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 10:47:11] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.112
+[2026-09-18 10:47:20] [INFO] System heartbeat normal. CPU: 71%, RAM: 56%
+[2026-09-18 10:47:25] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:47:35] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:47:43] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:47:45] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:47:52] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:48:00] [INFO] System heartbeat normal. CPU: 24%, RAM: 51%
+[2026-09-18 10:48:10] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:48:13] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:48:21] [INFO] System heartbeat normal. CPU: 12%, RAM: 50%
+[2026-09-18 10:48:31] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:48:32] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:48:40] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:48:47] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:48:48] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:48:51] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:48:59] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 10:49:09] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:49:12] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.50
+[2026-09-18 10:49:21] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:49:31] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:49:35] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:49:36] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:49:43] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 10:49:44] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:49:45] [INFO] User session active for service account 'svc_backup' from IP 45.33.32.156
+[2026-09-18 10:49:48] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 10:49:55] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:50:02] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:50:08] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:50:13] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 10:50:17] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:50:26] [INFO] System heartbeat normal. CPU: 77%, RAM: 67%
+[2026-09-18 10:50:36] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:50:41] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:50:46] [INFO] System heartbeat normal. CPU: 79%, RAM: 75%
+[2026-09-18 10:50:48] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:50:53] [INFO] System heartbeat normal. CPU: 18%, RAM: 44%
+[2026-09-18 10:51:02] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:51:10] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:51:16] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:51:17] [INFO] System heartbeat normal. CPU: 13%, RAM: 87%
+[2026-09-18 10:51:27] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:51:30] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:51:32] [INFO] User session active for service account 'svc_backup' from IP 172.16.0.22
+[2026-09-18 10:51:33] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:51:39] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:51:43] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:51:49] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:51:54] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:51:57] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:52:00] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:52:03] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:52:12] [INFO] User session active for service account 'svc_backup' from IP 172.16.0.22
+[2026-09-18 10:52:16] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:52:24] [INFO] Network socket established: TCP 192.168.1.50 -> 185.220.101.5:443
+[2026-09-18 10:52:32] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:52:35] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.112
+[2026-09-18 10:52:39] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:52:43] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 10:52:52] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:53:02] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:53:04] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:53:06] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 10:53:11] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:53:14] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:53:22] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:53:23] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:53:33] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:53:43] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:53:45] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 10:53:50] [INFO] Network socket established: TCP 192.168.1.50 -> 185.220.101.5:443
+[2026-09-18 10:53:56] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:54:01] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:54:04] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:54:12] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:54:20] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:54:22] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:54:31] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:54:41] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 10:54:47] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 10:54:53] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 10:55:02] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:55:08] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:55:09] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 10:55:19] [INFO] System heartbeat normal. CPU: 50%, RAM: 90%
+[2026-09-18 10:55:28] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 10:55:29] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:55:36] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:55:40] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 10:55:42] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:55:47] [INFO] System heartbeat normal. CPU: 90%, RAM: 37%
+[2026-09-18 10:55:54] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:56:01] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 10:56:04] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:56:08] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:56:11] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:56:20] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:56:30] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:56:37] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:56:41] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:56:44] [INFO] System heartbeat normal. CPU: 90%, RAM: 72%
+[2026-09-18 10:56:48] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:56:52] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:57:02] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:57:07] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:57:17] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:57:21] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 10:57:22] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:57:26] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:57:33] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:57:35] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.50
+[2026-09-18 10:57:36] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:57:44] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 10:57:46] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:57:52] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:58:01] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:58:10] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 10:58:12] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:58:18] [INFO] System heartbeat normal. CPU: 55%, RAM: 75%
+[2026-09-18 10:58:20] [INFO] Network socket established: TCP 192.168.1.50 -> 172.16.0.22:443
+[2026-09-18 10:58:26] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 10:58:29] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:58:34] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 10:58:41] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:58:51] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 10:58:58] [INFO] System heartbeat normal. CPU: 20%, RAM: 87%
+[2026-09-18 10:59:03] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:59:12] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:59:17] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 10:59:19] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 10:59:23] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 10:59:30] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:59:36] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 10:59:45] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 10:59:47] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 10:59:55] [INFO] Network socket established: TCP 192.168.1.50 -> 172.16.0.22:443
+[2026-09-18 11:00:04] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:00:12] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:00:17] [INFO] Network socket established: TCP 192.168.1.50 -> 185.220.101.5:443
+[2026-09-18 11:00:19] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:00:21] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 11:00:24] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:00:30] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:00:33] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:00:39] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 11:00:41] [INFO] User session active for service account 'svc_backup' from IP 185.220.101.5
+[2026-09-18 11:00:47] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:00:54] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:01:01] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:01:04] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 11:01:08] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:01:14] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 11:01:17] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 11:01:21] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:01:25] [INFO] User session active for service account 'svc_backup' from IP 172.16.0.22
+[2026-09-18 11:01:33] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:01:42] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:01:49] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:01:58] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 11:02:07] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 11:02:10] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:02:15] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 11:02:16] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 11:02:17] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 11:02:23] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:02:29] [INFO] System heartbeat normal. CPU: 72%, RAM: 91%
+[2026-09-18 11:02:31] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:02:37] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:02:45] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:02:46] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 11:02:50] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:02:54] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:02:58] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:03:01] [INFO] User session active for service account 'svc_backup' from IP 185.220.101.5
+[2026-09-18 11:03:09] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:03:16] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:03:23] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:03:31] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:03:37] [INFO] User session active for service account 'svc_backup' from IP 185.220.101.5
+[2026-09-18 11:03:42] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:03:45] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:03:53] [INFO] System heartbeat normal. CPU: 44%, RAM: 66%
+[2026-09-18 11:03:54] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:03:55] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:04:05] [INFO] System heartbeat normal. CPU: 27%, RAM: 74%
+[2026-09-18 11:04:10] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:04:14] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:04:19] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 11:04:25] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:04:27] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:04:37] [INFO] Network socket established: TCP 192.168.1.50 -> 185.220.101.5:443
+[2026-09-18 11:04:43] [INFO] System heartbeat normal. CPU: 26%, RAM: 38%
+[2026-09-18 11:04:46] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:04:53] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:04:58] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:05:07] [INFO] Network socket established: TCP 192.168.1.50 -> 10.0.4.15:443
+[2026-09-18 11:05:15] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:05:20] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 11:05:27] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:05:28] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:05:37] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:05:41] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:05:46] [INFO] System heartbeat normal. CPU: 16%, RAM: 62%
+[2026-09-18 11:05:49] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:05:54] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:05:59] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:06:07] [INFO] System heartbeat normal. CPU: 66%, RAM: 58%
+[2026-09-18 11:06:15] [INFO] User session active for service account 'svc_backup' from IP 172.16.0.22
+[2026-09-18 11:06:20] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:06:21] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:06:24] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:06:34] [INFO] User session active for service account 'svc_backup' from IP 185.220.101.5
+[2026-09-18 11:06:38] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:06:44] [INFO] System heartbeat normal. CPU: 65%, RAM: 60%
+[2026-09-18 11:06:51] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 11:07:00] [INFO] User session active for service account 'svc_backup' from IP 45.33.32.156
+[2026-09-18 11:07:04] [INFO] Network socket established: TCP 192.168.1.50 -> 10.0.4.15:443
+[2026-09-18 11:07:05] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:07:14] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:07:19] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:07:25] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:07:32] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:07:41] [INFO] System heartbeat normal. CPU: 52%, RAM: 49%
+[2026-09-18 11:07:50] [INFO] System heartbeat normal. CPU: 57%, RAM: 64%
+[2026-09-18 11:07:59] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:08:01] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:08:05] [INFO] System heartbeat normal. CPU: 17%, RAM: 53%
+[2026-09-18 11:08:10] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:08:12] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:08:16] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:08:24] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 11:08:25] [INFO] Network socket established: TCP 192.168.1.50 -> 185.220.101.5:443
+[2026-09-18 11:08:34] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:08:35] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:08:41] [INFO] Network socket established: TCP 192.168.1.50 -> 185.220.101.5:443
+[2026-09-18 11:08:49] [INFO] System heartbeat normal. CPU: 63%, RAM: 89%
+[2026-09-18 11:08:58] [INFO] System heartbeat normal. CPU: 32%, RAM: 79%
+[2026-09-18 11:09:00] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:09:06] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:09:08] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:09:16] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:09:20] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:09:21] [INFO] User session active for service account 'svc_backup' from IP 45.33.32.156
+[2026-09-18 11:09:25] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:09:35] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:09:42] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:09:51] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 11:09:58] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 11:10:02] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 11:10:07] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:10:12] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:10:14] [INFO] Network socket established: TCP 192.168.1.50 -> 185.220.101.5:443
+[2026-09-18 11:10:15] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:10:22] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 11:10:25] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 11:10:29] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 11:10:36] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:10:37] [INFO] User session active for service account 'svc_backup' from IP 172.16.0.22
+[2026-09-18 11:10:46] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.112
+[2026-09-18 11:10:48] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 11:10:53] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:10:54] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:11:00] [INFO] User session active for service account 'svc_backup' from IP 172.16.0.22
+[2026-09-18 11:11:01] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:11:04] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 11:11:07] [INFO] User session active for service account 'svc_backup' from IP 172.16.0.22
+[2026-09-18 11:11:12] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:11:22] [INFO] User session active for service account 'svc_backup' from IP 172.16.0.22
+[2026-09-18 11:11:30] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:11:34] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 11:11:36] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:11:43] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:11:51] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:11:55] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 11:11:58] [INFO] System heartbeat normal. CPU: 81%, RAM: 40%
+[2026-09-18 11:11:59] [INFO] System heartbeat normal. CPU: 82%, RAM: 54%
+[2026-09-18 11:12:03] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:12:04] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 11:12:07] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:12:15] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:12:23] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 11:12:29] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:12:37] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 11:12:47] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:12:54] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 11:13:03] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:13:04] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:13:09] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 11:13:13] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:13:17] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:13:25] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:13:29] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:13:34] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:13:37] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:13:43] [INFO] Network socket established: TCP 192.168.1.50 -> 10.0.4.15:443
+[2026-09-18 11:13:51] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:13:58] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:14:06] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:14:09] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 11:14:14] [INFO] System heartbeat normal. CPU: 14%, RAM: 89%
+[2026-09-18 11:14:16] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:14:26] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 11:14:31] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.50
+[2026-09-18 11:14:36] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:14:43] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:14:48] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 11:14:58] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:15:05] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:15:13] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:15:14] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:15:15] [INFO] User session active for service account 'svc_backup' from IP 45.33.32.156
+[2026-09-18 11:15:22] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 11:15:25] [INFO] System heartbeat normal. CPU: 32%, RAM: 78%
+[2026-09-18 11:15:27] [INFO] Network socket established: TCP 192.168.1.50 -> 185.220.101.5:443
+[2026-09-18 11:15:29] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:15:39] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:15:42] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:15:51] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:15:53] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:16:02] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:16:07] [INFO] System heartbeat normal. CPU: 18%, RAM: 66%
+[2026-09-18 11:16:13] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 11:16:16] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 11:16:17] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:16:25] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 11:16:27] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:16:31] [INFO] System heartbeat normal. CPU: 85%, RAM: 70%
+[2026-09-18 11:16:35] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 11:16:45] [INFO] User session active for service account 'svc_backup' from IP 185.220.101.5
+[2026-09-18 11:16:53] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:16:57] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 11:17:06] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 11:17:12] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:17:15] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:17:17] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:17:25] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:17:34] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:17:36] [INFO] System heartbeat normal. CPU: 21%, RAM: 48%
+[2026-09-18 11:17:45] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:17:55] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:17:57] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:18:06] [INFO] System heartbeat normal. CPU: 56%, RAM: 39%
+[2026-09-18 11:18:14] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:18:16] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:18:24] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:18:34] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 11:18:35] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:18:42] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:18:45] [INFO] System heartbeat normal. CPU: 85%, RAM: 65%
+[2026-09-18 11:18:52] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:19:01] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 11:19:06] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:19:09] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:19:13] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:19:23] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:19:26] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 11:19:28] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 11:19:31] [INFO] System heartbeat normal. CPU: 59%, RAM: 42%
+[2026-09-18 11:19:37] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:19:46] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:19:47] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 11:19:50] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 11:19:56] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:20:03] [INFO] User session active for service account 'svc_backup' from IP 185.220.101.5
+[2026-09-18 11:20:04] [INFO] User session active for service account 'svc_backup' from IP 185.220.101.5
+[2026-09-18 11:20:12] [INFO] User session active for service account 'svc_backup' from IP 185.220.101.5
+[2026-09-18 11:20:17] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:20:20] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 11:20:28] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:20:38] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 11:20:48] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.50
+[2026-09-18 11:20:50] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:20:57] [INFO] User session active for service account 'svc_backup' from IP 45.33.32.156
+[2026-09-18 11:21:02] [INFO] System heartbeat normal. CPU: 19%, RAM: 76%
+[2026-09-18 11:21:09] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 11:21:12] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.112
+[2026-09-18 11:21:19] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:21:25] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:21:32] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 11:21:36] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:21:41] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 11:21:42] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:21:49] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 11:21:58] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:22:02] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:22:10] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:22:13] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:22:23] [INFO] System heartbeat normal. CPU: 63%, RAM: 65%
+[2026-09-18 11:22:26] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:22:36] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:22:46] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:22:54] [INFO] User session active for service account 'svc_backup' from IP 185.220.101.5
+[2026-09-18 11:23:00] [INFO] System heartbeat normal. CPU: 61%, RAM: 40%
+[2026-09-18 11:23:01] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:23:04] [INFO] User session active for service account 'svc_backup' from IP 172.16.0.22
+[2026-09-18 11:23:14] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 11:23:22] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 11:23:29] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 11:23:38] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:23:41] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:23:49] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:23:50] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 11:23:55] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:23:59] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:24:00] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 11:24:02] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.112
+[2026-09-18 11:24:10] [INFO] Network socket established: TCP 192.168.1.50 -> 172.16.0.22:443
+[2026-09-18 11:24:16] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:24:18] [INFO] System heartbeat normal. CPU: 84%, RAM: 47%
+[2026-09-18 11:24:23] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 11:24:25] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:24:35] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:24:43] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:24:51] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:24:54] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:25:01] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:25:10] [WARNING] Failed login attempt for user 'administrator' from internal IP 172.16.0.22
+[2026-09-18 11:25:17] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:25:23] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:25:29] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 11:25:34] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 11:25:35] [WARNING] Failed login attempt for user 'administrator' from internal IP 10.0.4.15
+[2026-09-18 11:25:37] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:25:40] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 11:25:45] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:25:49] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:25:50] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:25:53] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:25:55] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:26:02] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:26:06] [INFO] System heartbeat normal. CPU: 22%, RAM: 35%
+[2026-09-18 11:26:09] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.50:443
+[2026-09-18 11:26:19] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 11:26:25] [INFO] User session active for service account 'svc_backup' from IP 185.220.101.5
+[2026-09-18 11:26:35] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:26:37] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:26:40] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:26:46] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:26:47] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 11:26:50] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 11:26:57] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:27:04] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:27:05] [INFO] Network socket established: TCP 192.168.1.50 -> 10.0.4.15:443
+[2026-09-18 11:27:14] [INFO] Network socket established: TCP 192.168.1.50 -> 10.0.4.15:443
+[2026-09-18 11:27:17] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:27:23] [WARNING] Failed login attempt for user 'administrator' from internal IP 45.33.32.156
+[2026-09-18 11:27:24] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:27:34] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:27:41] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:27:49] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:27:57] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:28:06] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:28:15] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:28:17] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:28:22] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:28:28] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:28:38] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:28:40] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:28:41] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:28:49] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:28:50] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:28:58] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:29:03] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:29:07] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:29:10] [INFO] System heartbeat normal. CPU: 16%, RAM: 58%
+[2026-09-18 11:29:11] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:29:13] [INFO] System heartbeat normal. CPU: 35%, RAM: 52%
+[2026-09-18 11:29:23] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.112
+[2026-09-18 11:29:32] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:29:37] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:29:44] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:29:49] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:29:50] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 11:29:51] [INFO] System heartbeat normal. CPU: 97%, RAM: 66%
+[2026-09-18 11:29:57] [WARNING] Failed login attempt for user 'administrator' from internal IP 185.220.101.5
+[2026-09-18 11:29:59] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
+[2026-09-18 11:30:08] [WARNING] Failed login attempt for user 'administrator' from internal IP 192.168.1.50
+[2026-09-18 11:30:15] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:30:23] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:30:29] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.50
+[2026-09-18 11:30:39] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:30:44] [INFO] Network socket established: TCP 192.168.1.50 -> 45.33.32.156:443
+[2026-09-18 11:30:49] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:30:51] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:31:01] [INFO] User session active for service account 'svc_backup' from IP 10.0.4.15
+[2026-09-18 11:31:04] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:31:10] [ALERT] Network Anomaly: High-frequency outbound DNS TXT requests (C2 Tunneling - T1071.004)
+[2026-09-18 11:31:19] [WARNING] Registry modification: New persistent run key added to HKCU
+[2026-09-18 11:31:27] [INFO] Network socket established: TCP 192.168.1.50 -> 172.16.0.22:443
+[2026-09-18 11:31:34] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:31:42] [INFO] Scheduled antivirus quick scan finished. Zero threats in scan scope.
+[2026-09-18 11:31:44] [INFO] Network socket established: TCP 192.168.1.50 -> 10.0.4.15:443
+[2026-09-18 11:31:53] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:31:58] [CRITICAL] YARA Signature Match: T1003.001 (OS Credential Dumping - Mimikatz)
+[2026-09-18 11:32:08] [CRITICAL] Unauthorized handle opened to protected system process: lsass.exe
+[2026-09-18 11:32:10] [ALERT] Suspicious process execution detected: powershell.exe -ExecutionPolicy Bypass
+[2026-09-18 11:32:15] [INFO] System heartbeat normal. CPU: 37%, RAM: 61%
+[2026-09-18 11:32:18] [INFO] User session active for service account 'svc_backup' from IP 192.168.1.112
+[2026-09-18 11:32:21] [INFO] Network socket established: TCP 192.168.1.50 -> 192.168.1.112:443
